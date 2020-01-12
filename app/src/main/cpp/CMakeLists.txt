@@ -30,7 +30,7 @@ find_library( # Sets the name of the path variable.
 # build script, prebuilt third-party libraries, or system libraries.
 
 # Add Oboe
-set(OBOE_DIR /path/to/oboe)
+set(OBOE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/oboe)
 add_subdirectory(${OBOE_DIR} ./oboe)
 include_directories(${OBOE_DIR}/include)
 
