@@ -33,7 +33,7 @@ Java_com_example_lowlatencyaudio_MainActivity_tap(
         jboolean b
         )
 {
-    // TODO
+    engine.tap(b);
 }
 
 extern "C" JNIEXPORT void JNICALL

@@ -8,6 +8,7 @@
 class AudioEngine : public oboe::AudioStreamCallback{
 public:
     void start();
+    void tap(bool b);
 
     // Callback
     oboe::DataCallbackResult
