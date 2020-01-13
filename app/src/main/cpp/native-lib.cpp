@@ -11,7 +11,7 @@ Java_com_example_lowlatencyaudio_MainActivity_stringFromJNI(
         jobject /* this */
         )
 {
-    std::string hello = "Hello from C++ LowLatencyAudio";
+    std::string hello = "Hello from C++ LowLatencyAudio\nusing oboe!";
     return env->NewStringUTF(hello.c_str());
 }
 
